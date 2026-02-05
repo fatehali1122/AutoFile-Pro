@@ -1,0 +1,18 @@
+# --- User Exclusions ---
+Temp Sandbox/
+Source Code.txt
+
+# --- Python System Files ---
+__pycache__/
+*.py[cod]
+*.log
+logs/
+
+# --- Virtual Environment (Libraries) ---
+.venv/
+env/
+venv/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db

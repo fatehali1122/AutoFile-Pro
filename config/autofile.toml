@@ -1,0 +1,75 @@
+[general]
+default_mode = "extension"
+
+[organizer]
+mode = "extension"
+size_low_mb = 10
+size_high_mb = 100
+age_low_days = 7
+age_high_days = 30
+
+[backup]
+default_folder = "backups"
+compress = true
+
+[cleanup]
+mode = "size"
+size_limit_mb = 100
+age_limit_days = 30
+archive_folder = "archives"
+
+[logging]
+log_dir = "logs"
+level = "INFO"
+
+[advanced]
+protected_dirs = [
+    "documents",
+    "images",
+    "videos",
+    "audios",
+    "code_files",
+    "others",
+    "small",
+    "large",
+    "very_large",
+    "recent",
+    "old",
+    "very_old",
+]
+
+[advanced.extension_groups]
+documents = [
+    ".txt",
+    ".docx",
+    ".pdf",
+    ".csv",
+]
+images = [
+    ".jpg",
+    ".png",
+]
+videos = [
+    ".mp4",
+    ".mkv",
+    ".webm",
+    ".mov",
+    ".wmv",
+]
+audios = [
+    ".mp3",
+    ".m4a",
+    ".wav",
+]
+code_files = [
+    ".py",
+    ".cpp",
+    ".java",
+    ".js",
+    ".php",
+    ".html",
+    ".css",
+    ".qss",
+    ".xml",
+    ".json",
+]
