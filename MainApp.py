@@ -504,6 +504,7 @@ class AutoFileProApp(ctk.CTk):
 
         self.title("AutoFile Pro")
         self.geometry("900x500")
+        self.iconbitmap("Picture/logo1.ico")
         self.grid_columnconfigure(1, weight=1)
         self.grid_rowconfigure(0, weight=1)
 
